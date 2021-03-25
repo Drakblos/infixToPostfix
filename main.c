@@ -38,7 +38,7 @@ int main(void){
                 ptr=value(pop(a));
                 printf("%c",*ptr);
                 ptr++;
-            }pop(a); //sacar '('
+            }pop(a); //sacar '(' //Posible error
         }
         else{ 		//si no es un numero ni un parentesis, es un operador
             if(stack_isempty(a)==1){ //primero vemos si el stack esta vacio
